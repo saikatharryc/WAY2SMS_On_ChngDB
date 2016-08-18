@@ -5,12 +5,6 @@
  * Date: 6/30/2016
  * Time: 7:19 PM
  */
-/**
- * @source code designed by Muhsin Mohamed Pc for http://www.howi.in
- * Report bugs and errors to waphunt@gmail.com
- * @This script was coded with the help of many other github projects. I thanks to them
- * @Take backup before editing the script
- */
 include('curl.php');
 
 @ini_set('zlib.output_compression',0);
@@ -92,10 +86,5 @@ function err($head="Error",$text="Error")
     flush();
     die();
 }
-/**
- * @source code designed by Muhsin Mohamed Pc for http://www.howi.in
- * Report bugs and errors to waphunt@gmail.com
- * @This script was coded with the help of many other github projects. I thanks to them
- * @Take backup before editing the script
- */
+
 ?>
