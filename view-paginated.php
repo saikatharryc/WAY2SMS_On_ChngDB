@@ -86,7 +86,6 @@ for ($i = $start; $i < $end; $i++)
 echo "</table>";
 
 // pagination
-
 ?>
 <p><a href="new.php">Add a new record</a></p>
 
