@@ -12,9 +12,9 @@ set_time_limit(0);
 $ser="http://site24.way2sms.com/";
 $ckfile = tempnam ("/tmp", "CURLCOOKIE");
 $login=$ser."Login1.action";
-$uid='8373886873';
-$pwd='saikatfb';
-$to='7890647677';
+$uid='your way2sms user id here';
+$pwd='your way2sms password here';
+$to='which mobile no. to send';
 
 function renderForm($first, $last, $error)
 {
@@ -78,7 +78,7 @@ if (isset($_POST['submit']))
 if(isset($_POST['submit'])) {
    $N= "New value have Entered,The first name is $firstname and the last name you entered is $lastname";
 
-     //sent message through way2sms starts here
+      //sent message through way2sms starts here
     $msg="$N";
     if(!$to)
     { $to=$uid; }
