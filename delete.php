@@ -4,10 +4,8 @@
  * User: Sc
  * Date: 6/29/2016
  * Time: 9:30 PM
- */
-/*
- DELETE.PHP
- Deletes a specific entry from the 'players' table
+ * DELETE.PHP
+ *Deletes a specific entry from the 'players' table
 */
 
  // connect to the database
