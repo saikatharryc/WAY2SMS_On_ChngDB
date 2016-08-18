@@ -5,12 +5,7 @@
  * Time: 7:18 PM
  */
 <?php
-/**
- * @source code designed by Muhsin Mohamed Pc for http://www.howi.in
- * Report bugs and errors to waphunt@gmail.com
- * @This script was coded with the help of many other github projects. I thanks to them
- * @Take backup before editing the script
- */
+
 $agent=$_SERVER['HTTP_USER_AGENT'];
 
 function getcap($url,$ch,$ckfile,$proxy='',$ref='')
@@ -118,11 +113,6 @@ function nget($url,$ch,$ckfile,$proxy='',$ref='')
     curl_setopt($ch, CURLOPT_REFERER, $ref);
     return curl_exec($ch);
 }
-/**
- * @source code designed by Muhsin Mohamed Pc for http://www.howi.in
- * Report bugs and errors to waphunt@gmail.com
- * @This script was coded with the help of many other github projects. I thanks to them
- * @Take backup before editing the script
- */
+
 ?>
 
