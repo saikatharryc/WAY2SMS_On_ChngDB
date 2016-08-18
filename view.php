@@ -24,7 +24,7 @@
 	$result = mysql_query("SELECT * FROM players")
     or die(mysql_error());
 
-	// display data in table
+// display data in table
 	echo "<p><b>View All</b> | <a href='view-paginated.php?page=1'>View Paginated</a></p>";
 
 	echo "<table border='1' cellpadding='10'>";
