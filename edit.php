@@ -3,12 +3,11 @@
  * User: Sc
  * Date: 6/29/2016
  * Time: 9:29 PM
- */
-<?php
-/*
- EDIT.PHP
- Allows user to edit specific entry in database
+ * EDIT.PHP
+ *Allows user to edit specific entry in database
 */
+<?php
+
 
 // creates the edit record form
 // since this form is used multiple times in this file, I have made it a function that is easily reusable
