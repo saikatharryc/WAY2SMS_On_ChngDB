@@ -6,8 +6,8 @@
 
 // Database Variables (edit with your own server information)
 $server = 'localhost';
-$user = 'saikatha_records';
-$pass = 'saikat95';
+$user = 'root';
+$pass = '*****';
 $db = 'saikatha_records';
 
 // Connect to Database
