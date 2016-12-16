@@ -1,7 +1,7 @@
 # WAY2SMS_On_ChngDB
 Get SMS  Direct on phone on database value insertion,from way2sms using cron job
            Demo URL: 
-[Click Here](http://saikatha.5gbfree.com/view.php)
+[Click Here](http://www.sunnyabhipaulphotography.in/WAY2SMS_On_ChngDB-master/view.php)
 
 Note: The demo set to a Specific no. so you cant get SMS until you set it to your number,and for that u have to change it. 
             
